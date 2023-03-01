@@ -1,0 +1,167 @@
+#yt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+  }
+  #yt > a > img {
+    width: 40px;
+    height: 30px;
+    border-radius: 15px;
+  }
+  #nav {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 50px;
+  }
+  #yt > a {
+    text-decoration: none;
+    color: black;
+  }
+  #yt > a > h1,
+  #yt-1 > h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 25px;
+  }
+  #container {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-gap: 4%;
+    margin: auto;
+    margin-top: -80px;
+    justify-content: center;
+    background-color: #fbf6f6;
+    padding: 5%;
+  }
+  #srch {
+    display: flex;
+    width: 70%;
+    margin-left: 10%;
+    justify-content: center;
+  }
+  #srch > input {
+    width: 90%;
+    height: 40px;
+    margin-top: -5px;
+  }
+  #srch > button {
+    width: 9%;
+    height: 40px;
+    background-color: white;
+    margin-top: -5px;
+    cursor: pointer;
+    border: solid 1px gray;
+  }
+  #container > div > img {
+    width: 100%;
+    cursor: pointer;
+  }
+  #container > div {
+    margin-top: -50px;
+  }
+  button > img {
+    width: 50%;
+  }
+  #srch > img {
+    width: 8%;
+    height: 35px;
+    border: solid 1px wheat;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  #last-sec div > img {
+    width: 18%;
+  }
+  #last-sec > div {
+    width: 50%;
+    display: flex;
+    justify-content:space-evenly;
+  }
+  #last-sec {
+    width: 350px;
+  }
+  #signinBtn {
+    margin-top: -10%;
+    margin-left: 50%;
+    border: solid 1px blue;
+    background: transparent;
+    width: 46%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  #signinBtn > a {
+    text-decoration: none;
+    color: blue;
+  }
+  #signinBtn > img {
+    width: 25%;
+  }
+  #head {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  #head > div > div > img:first-child {
+    width: 60px;
+    margin-left: 50px;
+  }
+  #head > div > img:last-child {
+    width: 92%;
+    height: 100%;
+    margin-left: 50px;
+  }
+  #yt-1 > h1 {
+    margin-top: 0px;
+  }
+  #yt-1 {
+    display: flex;
+    width: 40px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  #heading {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 50px;
+    width: 500px;
+  }
+  #btn {
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 8px;
+    background-color: white;
+  }
+#filter {
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    width: 100px;
+    display: flex;
+  margin-left: 300px;
+    margin-top: 10px;
+}
+
+
+#filter > details > #sorting > details > button, #filter > details > #sorting > button{
+ border: transparent;
+ background: transparent;
+ cursor: pointer;
+ margin: 10px;
+}
+summary {
+  display: flex;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+summary > img {
+  width: 15%;
+  margin-right: 5px;
+}
+#container > div > p {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
